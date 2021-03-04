@@ -48,14 +48,14 @@ public class Sophos {
 
     private static void fillXMainDiagonal() {
         for (int i = 0; i < matrixSize; i++) {
-            matriz[i][i] = "x";
+            matriz[i][i] = "X";
         }
     }
 
     private static void fillXInvertedDiagonal() {
         int j=0;
         for (int i = matrixSize - 1; i >= 0; i--) {
-            matriz[i][j] = "x";
+            matriz[i][j] = "X";
             j++;
         }
     }
